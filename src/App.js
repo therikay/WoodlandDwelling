@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         
         <p>
-          Our website is under construction! <span role ="img" aria-labelledby ="tree">🌳🌲</span> <br/> Come back later 
+          Our website is under construction! <span role ="img" aria-labelledby ="tree">🌳🌲</span>
         </p>
         <WDlogo />
         In the meantime,
