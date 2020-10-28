@@ -1,16 +1,21 @@
 import React from 'react';
 import './App.css';
 import WDlogo from "./WDlogo.js"
+import gamificationcode from "./gamificationcode.jpg"
+import ntoc from "./ntoc.png"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <div className="NTOC">
+        Join us for #NTOC2020 <span role ="img" aria-labelledby ="tree">🌳</span>  <br/> <img src={ntoc} alt ="NTOC Logo" height ="200"/>
+        <img src={gamificationcode} alt ="QRcode" height="200"/>
+        </div> 
         <p>
-          Our website is under construction! <span role ="img" aria-labelledby ="tree">🌳🌲</span>
+          Our website is under construction! <span role ="img" aria-labelledby ="tree">🏗👷‍♀️</span>
         </p>
-        <WDlogo />
+        <WDlogo/>
         In the meantime,
         <a
           className="App-link"
